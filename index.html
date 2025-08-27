@@ -2,141 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="">
-    <nav class="flex justify-between bg-[#E6FFDA] p-3 items-center-safe w-full sticky top-0 bg-blend-hard-light z-10">
+  <!-- NAVBAR -->
+  <nav class="flex flex-col lg:flex-row md:flex-row justify-between bg-[#E6FFDA] p-3 items-center w-full sticky top-0 z-10">
 
-        <div>
-            <img src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg" alt="">
-        </div>
-        <div class="flex gap-5 ">
-            <a class="inline-block pb-1 
-         bg-gradient-to-r from-current to-current 
+    <!-- Logo -->
+    <div class="mb-3 md:mb-0">
+      <img src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg" alt="">
+    </div>
+
+    <!-- Links -->
+    <div class="flex flex-row  md:flex-row  gap-3 md:gap-5 text-center">
+      <a class="inline-block pb-1 bg-gradient-to-r from-current to-current 
          bg-[length:0%_2px] hover:bg-[length:100%_2px]
          bg-no-repeat bg-left-bottom
          transition-[background-size] duration-300" href="#">Features</a>
-            <a class="inline-block pb-1 
-         bg-gradient-to-r from-current to-current 
+      <a class="inline-block pb-1 bg-gradient-to-r from-current to-current 
          bg-[length:0%_2px] hover:bg-[length:100%_2px]
          bg-no-repeat bg-left-bottom
          transition-[background-size] duration-300" href="#">Privacy</a>
-            <a class="inline-block pb-1 
-         bg-gradient-to-r from-current to-current 
+      <a class="inline-block pb-1 bg-gradient-to-r from-current to-current 
          bg-[length:0%_2px] hover:bg-[length:100%_2px]
          bg-no-repeat bg-left-bottom
          transition-[background-size] duration-300" href="#">Help Center</a>
-            <a class="inline-block pb-1 
-         bg-gradient-to-r from-current to-current 
+      <a class="inline-block pb-1 bg-gradient-to-r from-current to-current 
          bg-[length:0%_2px] hover:bg-[length:100%_2px]
          bg-no-repeat bg-left-bottom
          transition-[background-size] duration-300" href="#">Blog</a>
-            <a class="inline-block pb-1 
-         bg-gradient-to-r from-current to-current 
+      <a class="inline-block pb-1 bg-gradient-to-r from-current to-current 
          bg-[length:0%_2px] hover:bg-[length:100%_2px]
          bg-no-repeat bg-left-bottom
          transition-[background-size] duration-300" href="#">For Business</a>
-            <a class="inline-block pb-1 
-         bg-gradient-to-r from-current to-current 
+      <a class="inline-block pb-1 bg-gradient-to-r from-current to-current 
          bg-[length:0%_2px] hover:bg-[length:100%_2px]
          bg-no-repeat bg-left-bottom
          transition-[background-size] duration-300" href="#">Help</a>
-        </div>
-        <div>
-            <button class="bg-[#ffffff] rounded-4xl p-3 m-2 ">Log in</button>
-            <button class="bg-[#25D366] rounded-4xl p-3">Download</button>
-        </div>
-    </nav>
-    <section class="bg-[#E6FFDA] pb-7">
-        <div class="ml-90 pt-20">
-            <h1 class="mb-10 text-6xl">Download whatsapp</h1>
-            <p class="text-lg font-bold ">
-                Start chatting and calling privately with WhatsApp across your <br>devices.</p>
-            <p class=""><span class="text-sm ">By installing WhatsApp, you agree to our <b>Terms </b>& <b>Privacy
-                    </b>Policy.</span></p>
-        </div>
-        <br>
-        <div class="w-lg h-auto bg-white rounded-4xl ml-90 pl-5 pt-5 pb-3 mb-10 ">
-            <h2 class="text-sm">Desktop</h2>
-            <h1 class="text-6xl">Windows</h1>
-            <p class="mt-4">Get calling, screen sharing and a faster experience with the Windows app. Requires Windows
-                10 or newer.</p>
-            <img class="w-40 mt-5" src="https://static.whatsapp.net/rsrc.php/y8/r/d-aqak0ELcH.svg" alt="">
-        </div>
-        <img class="absolute top-70 right-50 "
-            src="https://scontent.whatsapp.net/v/t39.8562-34/474609407_1791624084967189_7248026502832299107_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=51im0b5ERAAQ7kNvwHFD08c&_nc_oc=AdkVXjDs8U1G3mbu3UWTDLikkNZYPwqn6aGKrXEI2VhUj5dYLjo5Bq7SvCpHjJaNvKc&_nc_zt=3&_nc_ht=scontent.whatsapp.net&_nc_gid=eD5MyTrY_aPwVQ-JBNWTrQ&oh=01_Q5Aa2QFGt6tXVW865mAm913aeZXAjBIv-Ma5XoqqBvRGTF2-Fg&oe=68B36501"
-            alt="">
-        <div>
-            <span class="text-xl ml-90 border-b border-b-3 border-green-400">Log in from your browser &gt; </span>
-        </div>
-    </section>
-    <footer class="bg-black w-auto h-auto ">
-        <div class="flex flex-row gap-30 justify-center pt-20">
-            <div class="items-center flex-col flex gap-28">
-                <img src="https://static.whatsapp.net/rsrc.php/yA/r/hbGnlm1gXME.svg" alt="">
-                <button class="text-black  rounded-4xl bg-green-500  border  border-green-400 p-3">Download</button>
-            </div>
-            <div class="text-white">
-                <h3 class="text-sm text-gray-400 mb-5"> What we do</h3>
-                <div class="flex flex-col text-xl leading-10">
-                    <a href="">Features</a>
-                    <a href="">Blog</a>
-                    <a href="">Security</a>
-                    <a href="">For Business</a>
-                </div>
-            </div>
-            <div class="text-white">
-                <h3 class="text-sm text-gray-400 mb-5"> What we do</h3>
-                <div class="flex flex-col text-xl leading-10">
-                    <a href="">Features</a>
-                    <a href="">Blog</a>
-                    <a href="">Security</a>
-                    <a href="">For Business</a>
-                </div>
-            </div>
-            <div class="text-white">
-                <h3 class="text-sm text-gray-400 mb-5"> What we do</h3>
-                <div class="flex flex-col text-xl leading-10">
-                    <a href="">Features</a>
-                    <a href="">Blog</a>
-                    <a href="">Security</a>
-                    <a href="">For Business</a>
-                </div>
-            </div>
-            <div class="text-white">
-                <h3 class="text-sm text-gray-400 mb-5"> What we do</h3>
-                <div class="flex flex-col text-xl leading-10">
-                    <a href="">Features</a>
-                    <a href="">Blog</a>
-                    <a href="">Security</a>
-                    <a href="">For Business</a>
-                </div>
-            </div>
-        </div>
-        <hr style="color: gray;" class="w-300 ml-90 mt-25    ">
-        <div>
-            <div class="text-white flex flex-row gap-10 ml-90 mt-15">
-                <h2>2025 © WhatsApp <br> LLC</h2>
-                <h2>Terms & Privacy <br> Policy</h2>
-                <h2>  Sitemap</h2>
-            </div>
-            <div></div>
-            <div class="relative left-340 bottom-10 ">
-                <select class="text-white bg-black border rounded-4xl p-3" name="Languages" id="">
-                    <option value="English">English</option>
-                    <option value="Urdu">Urdu</option>
-                    <option value="Spanish">Spanish</option>
-                    <option value="Hindi">Hindi</option>
-                    <option value="France">France</option>
-                </select>
-            </div>
-        </div>
-    </footer>
-</body>
+    </div>
 
+    <!-- Buttons -->
+    <div class="flex flex-col md:flex-row gap-2 mt-3 md:mt-0">
+      <button class="bg-white rounded-3xl px-6 py-2">Log in</button>
+      <button class="bg-[#25D366] rounded-3xl px-6 py-2">Download</button>
+    </div>
+  </nav>
+
+  <!-- SECTION -->
+  <section class="bg-[#E6FFDA] pb-7 px-5 md:px-20 relative">
+    <div class="pt-20">
+      <h1 class="mb-6 text-4xl md:text-6xl font-bold">Download WhatsApp</h1>
+      <p class="text-base md:text-lg font-bold">
+        Start chatting and calling privately with WhatsApp across your <br class="hidden md:block">devices.
+      </p>
+      <p class="mt-2"><span class="text-xs md:text-sm">By installing WhatsApp, you agree to our <b>Terms</b> & <b>Privacy</b> Policy.</span></p>
+    </div>
+
+    <!-- Card -->
+    <div class="max-w-lg h-auto bg-white rounded-3xl p-5 mt-10">
+      <h2 class="text-sm">Desktop</h2>
+      <h1 class="text-3xl md:text-6xl font-bold">Windows</h1>
+      <p class="mt-4">Get calling, screen sharing and a faster experience with the Windows app. Requires Windows 10 or newer.</p>
+      <img class="w-32 md:w-40 mt-5" src="https://static.whatsapp.net/rsrc.php/y8/r/d-aqak0ELcH.svg" alt="">
+    </div>
+
+    <!-- Floating image -->
+    <img class="hidden md:block absolute top-40 right-20 w-64 lg:w-96"
+      src="https://scontent.whatsapp.net/v/t39.8562-34/474609407_1791624084967189_7248026502832299107_n.png"
+      alt="">
+
+    <!-- Login link -->
+    <div class="mt-5">
+      <span class="text-lg md:text-xl border-b border-green-400">Log in from your browser &gt;</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black w-full h-auto mt-10 px-5 md:px-20">
+    <div class="flex flex-col md:flex-row md:gap-20 justify-center pt-10">
+      <!-- Logo & Button -->
+      <div class="flex flex-col items-center gap-5 mb-10 md:mb-0">
+        <img src="https://static.whatsapp.net/rsrc.php/yA/r/hbGnlm1gXME.svg" alt="">
+        <button class="text-black rounded-3xl bg-green-500 border border-green-400 px-6 py-2">Download</button>
+      </div>
+
+      <!-- Links sections -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-white">
+        <div>
+          <h3 class="text-sm text-gray-400 mb-3">What we do</h3>
+          <div class="flex flex-col text-lg space-y-2">
+            <a href="">Features</a>
+            <a href="">Blog</a>
+            <a href="">Security</a>
+            <a href="">For Business</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm text-gray-400 mb-3">Company</h3>
+          <div class="flex flex-col text-lg space-y-2">
+            <a href="">About</a>
+            <a href="">Careers</a>
+            <a href="">News</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm text-gray-400 mb-3">Support</h3>
+          <div class="flex flex-col text-lg space-y-2">
+            <a href="">Help</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Cookies</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm text-gray-400 mb-3">More</h3>
+          <div class="flex flex-col text-lg space-y-2">
+            <a href="">Developers</a>
+            <a href="">Partners</a>
+            <a href="">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-gray-600 my-10">
+
+    <!-- Bottom row -->
+    <div class="flex flex-col md:flex-row justify-between items-center text-white text-sm md:text-base pb-10">
+      <div class="flex flex-col md:flex-row gap-5">
+        <h2>2025 © WhatsApp LLC</h2>
+        <h2>Terms & Privacy Policy</h2>
+        <h2>Sitemap</h2>
+      </div>
+
+      <!-- Language dropdown -->
+      <div class="mt-5 md:mt-0">
+        <select class="text-white bg-black border rounded-3xl px-4 py-2" name="Languages" id="">
+          <option value="English">English</option>
+          <option value="Urdu">Urdu</option>
+          <option value="Spanish">Spanish</option>
+          <option value="Hindi">Hindi</option>
+          <option value="France">France</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
